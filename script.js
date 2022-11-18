@@ -41,7 +41,7 @@ function swap(el1, el2) {
         window.requestAnimationFrame(function() {
 
             // For waiting for .25 sec
-            setTimeout(() => {
+            setTimeout(() => {   //
                 container.insertBefore(el2, el1);
                 resolve();
             }, 250);
